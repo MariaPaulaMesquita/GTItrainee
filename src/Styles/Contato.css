@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Langar&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#contato{
+ background-color: white;
+ padding: 10px 10px 10px 10px;
+}
+#contato div{
+display: flex;
+justify-content: center;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap:.5rem;
+}
+.it{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+}
+.logo {
+  width: 240px;
+  height: auto;
+}
+.telefone {
+  width: auto;
+  height: 30px;
+}
+.t1{
+ font-family: 'Kite One';
+ font-size: 30px;
+ text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.t2{
+ font-family: 'Langar';
+ color:#000E67;
+ font-size: 30px;
+ text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  background-color: white;
+font-family: 'Luckiest Guy';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+color: #FFE3E3;
+text-shadow: -3px 4px 0px #000000,
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.button{
+    margin-top: 12px;
+    width: 130px;
+    height:40px;
+    background-color: #000E67;
+    color: white;
+    font-family: 'Luckiest Guy';
+    font-size: 22px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.p2{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.l2 textarea{
+    resize: none; /*impede redimensionamento manual */ 
+   font-family: inherit;
+   font-size: 16px;
+}
+.l1, .l2 {
+  width: 250px;
+  gap: 0.2rem;
+}
+textarea{
+   width: 300px; 
+   height: 100%; 
+   padding: 2px;
+   padding-left: 6px;
+   color: #000E67;
+   border: 2px solid #ccc;
+   border-radius: 20px;
+}
+input{
+    width: 250px;
+    height: 30px; 
+    border-radius: 30px;
+    padding: 2px;
+    padding-left: 4px;
+    color: #000E67;
+    border: 2px solid #ccc;   
+    
+}
+.p2 li{
+    font-family: 'Amiri';
+    text-align: left;
+}

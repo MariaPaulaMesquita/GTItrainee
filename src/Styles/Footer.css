@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Langar&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#mainFooter{
+    background-color: #000E67;
+    color: white;
+    padding: 1rem .8rem;
+    display: flex;               /* Alinha as <ul> lado a lado */
+    justify-content: space-around; /* Espaço entre elas */
+    flex-wrap: wrap;             /* Permite quebra se a tela for pequena */
+    gap: 1.5rem;                   /* Espaço entre colunas */
+}
+
+#mainFooter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;     /* Faz os <li> ficarem em coluna */
+  gap: 0.5rem;
+}
+
+#mainFooter li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat Alternates';
+}
+#mainFooter li a:hover{
+  cursor: pointer;
+  color:aquamarine;
+}
+
+.textomotivador {
+  font-size: 1.2rem;
+  font-family: 'Langar';
+}
+.fontcontatos li{
+  font-family: 'Inter';
+  margin-bottom: 8px;
+}
+
+/* Ícones das redes sociais */
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Opcional: ajustar a logo */
+.logo {
+  width: 220px;
+  height: auto;
+}
+
+.redes {
+  display: flex;
+  gap: 0.5rem;
+}
+.indice{
+  font-family:'Luckiest Guy';
+  font-size: 19px;
+}
+.logo2 {
+  width: 100px;
+  height: 30px;
+  margin-top: 70px;
+}

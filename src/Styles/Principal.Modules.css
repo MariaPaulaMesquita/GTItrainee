@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto&display=swap');
+#mainPrincipal{
+    background-color: #F8F3E3;
+    color: #000000;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+    text-align: center;
+}
+.banner img {
+  height: 500px;
+  width: 900px;
+}
+.banner{
+  display: flex;   
+  position: relative;  
+  justify-content: center;
+  width: 100%;
+}
+.banner-btn {
+  position: absolute;
+  font-family: 'Luckiest Guy', cursive;
+  top: 90%;                    /* ajusta a posição vertical */
+  left: 50%;                   /* ajusta a posição horizontal */
+  transform: translate(-50%, -50%);  /* centraliza perfeitamente */
+  padding: 0.8rem 1.2rem;
+  font-size: 1.5rem;
+  background-color: #000E67;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.banner-btn:hover {
+  text-shadow: none;
+  background-color: cadetblue;
+  color: black;
+}
+#servicos{
+  margin-top: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size:x-large;
+}
+#portfolio{
+  font-family: 'Luckiest Guy', cursive;
+  font-size:x-large;
+  color: white;
+  text-shadow: -3px 4px 0px #000000;
+}

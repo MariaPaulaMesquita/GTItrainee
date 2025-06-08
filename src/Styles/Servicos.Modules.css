@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto&display=swap');
+.card-destaque {
+  background-color: #3E4959;
+  padding: 2rem;
+  border-radius: 80px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  margin: 2rem 0 0rem 0.8rem;
+  color: white;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.controle-icon {
+  width: 24px;
+  height: 18px;
+}
+
+.titulo {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 0rem;
+  font-family: 'Langar';
+}
+
+.card-conteudo {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.imagem-circular {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.imagem-circular img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position:center;
+}
+
+.texto-lateral {
+  font-family: 'Kite One';
+  flex: 1;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 0.5rem;
+  text-align:left;
+  padding-right: 0rem;
+  margin-right: 0rem;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilos individuais para os novos cards */
+.card2 {
+  background-color: #2C447C;
+}
+
+.card3 {
+  background-color: #A9DDE0; 
+}
+
+.card4 {
+  background-color: #4E99DC;
+}
+.card3 .texto-lateral,
+.card3 .titulo,
+.card4 .titulo,
+.card4 .texto-lateral{
+    color: black;
+}
