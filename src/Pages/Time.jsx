@@ -55,7 +55,7 @@ return(
     </div>
     <div className='cardmembro1'>
      <div className='circulo'></div>
-     <div className='nome'> Nicole Oliveira</div>
+     <div className='nome'> Mariana Lima</div>
      <div className='texto'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum a
         quisquam repellat? Labore, quod corporis tempora adipisci, facilis tempore, culpa consequuntur
         exercitationem dolorum ullam libero cumque blanditiis fugiat voluptates laudantium?

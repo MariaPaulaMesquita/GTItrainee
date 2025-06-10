@@ -8,7 +8,7 @@
   width: 300px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   height: 200px;
-  margin: 2rem 0 0rem 0.8rem;
+  margin: 2rem 0 0rem;
   color: white;
 }
 
@@ -64,7 +64,9 @@
 }
 .cards-container {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  gap:0.8rem;
+  margin-left: 1rem;
 }
 
 /* Estilos individuais para os novos cards */

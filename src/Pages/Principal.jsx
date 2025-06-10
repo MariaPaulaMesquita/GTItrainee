@@ -90,9 +90,12 @@ function Principal() {
 
 <section id="portfolio">
   <h2>Portfólio</h2>
-  {<div className='imgport'>
-    <img src={banner}/>
-    </div>}
+  <div className='areaimgport'>
+    <img src={banner} className='imgport'/>
+    <img src={banner} className='imgport'/>
+    <img src={banner} className='imgport'/>
+    <img src={banner} className='imgport'/>
+    </div>
 </section>
 
   <Contato/>
